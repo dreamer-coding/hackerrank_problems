@@ -1,6 +1,6 @@
 # **HackerRank Portfolio**
 
-## **XYZ**
+## **Programming Problems**
 
 This repository is a comprehensive collection of my solutions to a wide array of coding challenges and problems from HackerRank. As the Lead Engineer at Fossil Logic, I continually seek to refine my skills and stay sharp in various domains, including algorithms, data structures, mathematics, artificial intelligence, databases, and more. This portfolio serves as a testament to my commitment to excellence in software development and engineering.
 
