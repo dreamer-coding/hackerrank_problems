@@ -24,6 +24,10 @@ string ltrim(const string &);
 string rtrim(const string &);
 vector<string> split(const string &);
 
+enum {
+    ERROR_CODE_VALUE = -1
+};
+
 /*
  * Complete the 'birthdayCakeCandles' function below.
  *
@@ -47,10 +51,10 @@ int32_t birthdayCakeCandles(const std::vector<int32_t>& candles) {
 
     } catch (const std::invalid_argument& e) {
         std::cerr << "Invalid argument error: " << e.what() << std::endl;
-        return -1;  // Return a default error value
+        return ERROR_CODE_VALUE;  // Return a default error value
     } catch (const std::exception& e) {
         std::cerr << "An error occurred: " << e.what() << std::endl;
-        return -1;  // Return a default error value
+        return ERROR_CODE_VALUE;  // Return a default error value
     }
 }
 
