@@ -58,8 +58,7 @@ int32_t birthdayCakeCandles(const std::vector<int32_t>& candles) {
     }
 }
 
-int main()
-{
+int main() {
     ofstream fout(getenv("OUTPUT_PATH"));
 
     string candles_count_temp;
