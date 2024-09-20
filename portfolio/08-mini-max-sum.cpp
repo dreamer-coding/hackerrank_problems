@@ -60,9 +60,7 @@ void miniMaxSum(const std::vector<int32_t>& arr) {
     }
 }
 
-int main()
-{
-
+int main() {
     string arr_temp_temp;
     getline(cin, arr_temp_temp);
 
