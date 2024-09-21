@@ -27,7 +27,7 @@ vector<string> split(const string &);
 
 enum {
     ERROR_CODE_VALUE = -1
-);
+};
 
 /*
  * Complete the 'simpleArraySum' function below.
